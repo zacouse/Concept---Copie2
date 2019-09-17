@@ -9,6 +9,7 @@ public class EnemyCube : Enemy {
     Rigidbody rbd;
     AudioSource audioSource;
     public AudioMusic audio;
+    public GameObject explosion;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +31,7 @@ public class EnemyCube : Enemy {
     public override void Die()
     {
         audioSource.PlayOneShot(audio.soundToPlay);
+        Instantiate(explosion, gameObject.transform.position,Quaternion.identity);
         Destroy(gameObject);
     }
 }
