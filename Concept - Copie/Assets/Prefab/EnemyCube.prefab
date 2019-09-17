@@ -154,5 +154,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
-  speed: 5
+  speed: 30
   audio: {fileID: 11400000, guid: bae460ea2a8d1a849be527b633c9446c, type: 2}
+  explosion: {fileID: 1811323941448908, guid: 672b0fc9bea2a5e4fa6ee4059a72aeee, type: 2}

@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
-  fireDelay: 0.1
+  fireDelay: 0.05
   bulletPrefab: {fileID: 1825664832395992, guid: e209729ed73d5fd44b61c35e013c4cb5,
     type: 2}
 --- !u!136 &136017775227042340
